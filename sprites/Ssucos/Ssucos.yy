@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"Obancada",
+  "%Name":"Ssucos",
   "bboxMode":0,
-  "bbox_bottom":58,
-  "bbox_left":15,
-  "bbox_right":90,
-  "bbox_top":27,
+  "bbox_bottom":73,
+  "bbox_left":32,
+  "bbox_right":344,
+  "bbox_top":55,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b0bb0c41-6246-41a6-96ff-c3295401ec8c","name":"b0bb0c41-6246-41a6-96ff-c3295401ec8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8537aa47-0881-4868-a40b-11cae23e8837","name":"8537aa47-0881-4868-a40b-11cae23e8837","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"1a2ab66c-3770-42b4-9cd6-2190b52397c7","blendMode":0,"displayName":"default","isLocked":false,"name":"1a2ab66c-3770-42b4-9cd6-2190b52397c7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ec23be0d-3cdc-4125-81ed-227e09ecc36a","blendMode":0,"displayName":"default","isLocked":false,"name":"ec23be0d-3cdc-4125-81ed-227e09ecc36a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Obancada",
+  "name":"Ssucos",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Obancada",
+    "%Name":"Ssucos",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Obancada",
+    "name":"Ssucos",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b0bb0c41-6246-41a6-96ff-c3295401ec8c","path":"sprites/Obancada/Obancada.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"379281da-5d95-4416-a13f-fcff6e4d7034","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8537aa47-0881-4868-a40b-11cae23e8837","path":"sprites/Ssucos/Ssucos.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3e9048fe-ab1a-4dea-84a9-f4f43d0f6659","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":100,
+  "width":400,
 }
