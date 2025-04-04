@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"Srolo",
+  "%Name":"Ssucomorango",
   "bboxMode":0,
-  "bbox_bottom":77,
-  "bbox_left":47,
-  "bbox_right":53,
-  "bbox_top":54,
+  "bbox_bottom":73,
+  "bbox_left":232,
+  "bbox_right":244,
+  "bbox_top":55,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8bfab514-c2f3-449b-92aa-6512682f56f6","name":"8bfab514-c2f3-449b-92aa-6512682f56f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d86cdf32-d735-461c-b621-02df66598a1e","name":"d86cdf32-d735-461c-b621-02df66598a1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b9d31b0d-e710-4539-b9e7-cce9770be583","blendMode":0,"displayName":"default","isLocked":false,"name":"b9d31b0d-e710-4539-b9e7-cce9770be583","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e32b7bc8-e5e7-484f-bdc7-794c856da34c","blendMode":0,"displayName":"default","isLocked":false,"name":"e32b7bc8-e5e7-484f-bdc7-794c856da34c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Srolo",
+  "name":"Ssucomorango",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Srolo",
+    "%Name":"Ssucomorango",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Srolo",
+    "name":"Ssucomorango",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8bfab514-c2f3-449b-92aa-6512682f56f6","path":"sprites/Srolo/Srolo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d035cd9d-34db-4b12-b6f6-da59c70efecd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d86cdf32-d735-461c-b621-02df66598a1e","path":"sprites/Ssucomorango/Ssucomorango.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"09b31dd9-1683-4162-99f5-2d79c0022917","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":100,
+  "width":400,
 }

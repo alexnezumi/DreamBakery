@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"Srolo",
+  "%Name":"Ssucolaranja",
   "bboxMode":0,
-  "bbox_bottom":77,
-  "bbox_left":47,
-  "bbox_right":53,
-  "bbox_top":54,
+  "bbox_bottom":73,
+  "bbox_left":32,
+  "bbox_right":44,
+  "bbox_top":55,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8bfab514-c2f3-449b-92aa-6512682f56f6","name":"8bfab514-c2f3-449b-92aa-6512682f56f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"8e7dfeb8-04e2-4aef-8194-1cf90fe72628","name":"8e7dfeb8-04e2-4aef-8194-1cf90fe72628","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b9d31b0d-e710-4539-b9e7-cce9770be583","blendMode":0,"displayName":"default","isLocked":false,"name":"b9d31b0d-e710-4539-b9e7-cce9770be583","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4c612874-36fd-4fad-ab1f-912be6a7e84f","blendMode":0,"displayName":"default","isLocked":false,"name":"4c612874-36fd-4fad-ab1f-912be6a7e84f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Srolo",
+  "name":"Ssucolaranja",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"Srolo",
+    "%Name":"Ssucolaranja",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Srolo",
+    "name":"Ssucolaranja",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8bfab514-c2f3-449b-92aa-6512682f56f6","path":"sprites/Srolo/Srolo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d035cd9d-34db-4b12-b6f6-da59c70efecd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e7dfeb8-04e2-4aef-8194-1cf90fe72628","path":"sprites/Ssucolaranja/Ssucolaranja.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"916a6e93-0f9f-45ed-b2c9-88bbcd49946e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":100,
+  "width":400,
 }
