@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Ocadeira",
+  "%Name":"Oporta",
   "eventList":[],
   "managed":true,
-  "name":"Ocadeira",
+  "name":"Oporta",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Scadeira",
-    "path":"sprites/Scadeira/Scadeira.yy",
+    "name":"Sporta",
+    "path":"sprites/Sporta/Sporta.yy",
   },
   "spriteMaskId":null,
   "visible":true,

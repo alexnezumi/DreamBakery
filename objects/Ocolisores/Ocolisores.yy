@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Ocadeira",
+  "%Name":"Ocolisores",
   "eventList":[],
   "managed":true,
-  "name":"Ocadeira",
+  "name":"Ocolisores",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"Ocolisores",
-    "path":"objects/Ocolisores/Ocolisores.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Scadeira",
-    "path":"sprites/Scadeira/Scadeira.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

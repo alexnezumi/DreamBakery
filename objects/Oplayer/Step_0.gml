@@ -1,17 +1,41 @@
-if keyboard_check(vk_up)||keyboard_check(ord("W")){
-	y-=2
+//movimento
+var tecla_cima = keyboard_check(vk_up);
+var tecla_baixo = keyboard_check (vk_down);
+var tecla_esquerda = keyboard_check(vk_left);
+var tecla_direita = keyboard_check(vk_right);
+var tecla = tecla_direita - tecla_esquerda != 0 || tecla_baixo - tecla_cima != 0;
+
+dir = point_direction(0,0,tecla_direita- tecla_esquerda,tecla_baixo - tecla_cima);
+velh = lengthdir_x(velc * tecla, dir);
+velv = lengthdir_y(velc * tecla,dir);
+
+// Virar o sprite horizontalmente
+if (tecla_direita) {
+    image_xscale = -2; // Normal
+}
+if (tecla_esquerda) {
+    image_xscale = 2; // Espelhado
 }
 
-if keyboard_check(vk_down)||keyboard_check(ord("S")){
-	y+=2
+
+//colisão
+
+if(place_meeting(x + velh,y,Ocolisores )){
+	while(!place_meeting(x+sign(velh), y, Ocolisores)){
+		x=x+sign(velh);
+	}
+velh=0;
 }
 
-if keyboard_check(vk_left)||keyboard_check(ord("A")){
-	x-=2 image_xscale=1
+x+=velh;
+
+if (place_meeting(x,y+velv,Ocolisores)){
+	while(!place_meeting(x, y+ sign(velv), Ocolisores)){
+		y=y+sign(velv);
+	}
+velv=0;
 }
 
-if keyboard_check(vk_right)||keyboard_check(ord("D")){
-	x+=2 image_xscale=-1
-}
+y+= velv;
 
 
